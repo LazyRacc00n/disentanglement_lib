@@ -48,21 +48,21 @@ setup(
         'bin/dlib_train_weakly_supervised',
     ],
     install_requires=[
-        'future',
-        'imageio',
-        'gin-config',
-        'scikit-learn',
-        'numpy',
-        'pandas',
-        'simplejson',
-        'six',
-        'matplotlib>=1.5.2',
-        'pillow>=5.0.0',
-        'pandas>=0.23.0',
-        'scipy>=1.0.0',
-        'tensorflow_hub>=0.2',
-        'tensorflow_probability==0.7',
-        'seaborn',
+        'gast==0.2.2',
+	'protobuf==3.19.6',
+        'future==0.18.2',
+        'imageio==2.22.1',
+        'gin-config==0.2.0',
+        'scikit-learn==1.0.2',
+        'numpy==1.16.4',
+        'pandas==1.1.5',
+        'simplejson==3.17.6',
+        'six==1.16.0',
+        'matplotlib==3.4.0',
+        'pillow==9.2.0',
+        'scipy==1.5.0',
+        'tensorflow_hub==0.9.0',
+        'tensorflow_probability==0.7.0',
     ],
     extras_require={
         'tf': ['tensorflow==1.14'],
@@ -77,3 +77,8 @@ setup(
     ],
     keywords='tensorflow machine learning disentanglement learning',
 )
+
+
+# cudatoolkit == 10.0.130
+# cudnn == 7.3.1
+# 'saeborn==0.11.0',
